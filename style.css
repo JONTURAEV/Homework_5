@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(204, 172, 129);
+}
+
+img {
+width: 300px;
+height: 300px;
+margin-left: 100px;
+margin-top: 100px;
+border-radius: 50px;
+border: solid 2px;
+
+}
+img:hover {
+    cursor: none;
+}
+
+h1{
+margin-left: 70px;
+
+}
+h1:hover{
+    color: brown;
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+h2{
+    color: rgb(41, 41, 99);
+    margin-left: 80px;
+    
+}
+h2:hover{
+    color: black;
+    cursor:pointer;
+}
+
+ p {
+    font-weight: bold;
+    border: 10px solid gray;
+    border-radius:initial;
+ }
+ .lv:hover::after{
+    color: rgb(243, 243, 243);
+    content:"Отлично владеет";
+ }
+ 
+a{
+    
+    border:solid 2px;
+    
+    background-color:rgb(126, 143, 159)
+    
+}
+
+a:hover{
+    background-color:aliceblue;
+    cursor: pointer;}
